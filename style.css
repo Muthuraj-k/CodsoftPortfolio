@@ -1,0 +1,261 @@
+body {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+ 
+}
+
+.topsection {
+  display: flex;
+}
+#name {
+  margin: 10px;
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 300px;
+  height: 400px;
+  margin-right: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.content > h2 {
+  text-decoration: underline;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 20px 20px; */
+}
+.topsection > li {
+  list-style-type: none;
+  margin: 10px;
+}
+.topsection>a{
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+a:hover {
+  color: orangered;
+}
+.footer {
+  display: flex;
+  margin-left: 40%;
+  align-items: last baseline;
+  color: black;
+  padding: 10px;
+}
+i {
+  padding: 10px;
+  font-size: 2rem;
+  color: white;
+}
+
+#footer {
+  margin: 20px;
+  margin-left: 40%;
+}
+
+/* body{
+    background-image: url("assests/skill.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* 
+
+.topsection{
+    display: flex;
+}
+#name{
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    margin: 20px 20px;
+    
+} */
+.skillsection {
+  margin-left: 30px;
+}
+.skillset {
+  margin-left: 20px;
+}
+#footer {
+  margin: 20px;
+  margin-left: 40%;
+}
+.bgcontact{
+  height: 100%;
+}
+/* footer section */
+form {
+  font-size: 1.3rem;
+  font-weight: bold;
+  height: 500px;
+  width: 400px;
+  display: grid;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 50px;
+  box-shadow: 8px 10px 15px #797272;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: whitesmoke
+}
+label {
+  margin-top: 10px;
+  color: black;
+}
+input {
+  padding: 10px;
+  margin-top: 3px;
+  font-size: medium;
+  border: 1px solid black;
+}
+button {
+  margin: 20px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  background-color: rgb(18, 160, 212);
+}
+textarea {
+  border: 1px solid black;
+  margin: 10px;
+  text-align: start;
+  padding: 10px;
+}
+button:hover {
+  background-color: #0b19e3;
+  color: aliceblue;
+}
+
+.content {
+  margin-top: 10%;
+  margin-left: 40px;
+}
+
+.muthu {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+/*------------------------ .aboutsection */
+.aboutsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+}
+.section2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.github {
+  padding: 50px;
+}
+@media only screen and (max-width: 700px) {
+  .header {
+    display: grid;
+    font-size: 1rem;
+  }
+  .topsection > li {
+    margin-right: 20px;
+  }
+  #name {
+    text-align: center;
+  }
+  .img {
+    display: grid;
+    font-size: 1rem;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+  }
+  .muthu {
+    font-size: 1.2rem;
+  }
+  .section2 {
+    display: grid;
+    font-size: 1rem;
+  }
+  .section2 > .imagesection {
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .github {
+    margin: 20px;
+  }
+  .aboutsection {
+    width: 80%;
+    background: none;
+    box-shadow: none;
+    display: grid;
+    font-size: 1rem;
+  }
+  .muthuphoto {
+    justify-content: center;
+  }
+  .skillsection,
+  .skillset {
+    font-size: 1rem;
+  }
+  .projectsection {
+    font-size: 1rem;
+  }
+  i {
+    font-size: 20px;
+    color: white;
+  }
+  .footer {
+    margin-left: 80px;
+  }
+  form {
+    width: 80%;
+  }
+  .formsubmit {
+    margin-top: 40px;
+  }
+  .projectsection > h1 {
+    font-size: 1.2rem;
+  }
+  label {
+    font-size: 1.2rem;
+  }
+  label > a {
+    font-size: 1.2rem;
+  }
+  #footer {
+    margin-left: 40px;
+  }
+}
